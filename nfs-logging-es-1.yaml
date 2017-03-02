@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv005 
+spec:
+  accessModes:
+  - ReadWriteOnce 
+  nfs: 
+    path: /exports 
+    server: master-1.acme.local

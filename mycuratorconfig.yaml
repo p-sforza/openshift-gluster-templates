@@ -1,0 +1,9 @@
+.operations:
+  delete:
+    weeks: 4
+
+.defaults:
+  delete:
+    days: 10
+  runhour: 0
+  runminute: 0

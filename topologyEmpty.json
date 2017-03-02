@@ -1,0 +1,54 @@
+{
+    "clusters": [
+        {
+            "nodes": [
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-1.acme.local"
+                            ],
+                            "storage": [
+                                "node-1.acme.local"
+                            ]
+                        },
+                        "zone": 2
+                    },
+                    "devices": [
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-2.acme.local"
+                            ],
+                            "storage": [
+                                "node-2.acme.local"
+                            ]
+                        },
+                        "zone": 2
+                    },
+                    "devices": [
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-3.acme.local"
+                            ],
+                            "storage": [
+                                "node-3.acme.local"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

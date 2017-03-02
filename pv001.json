@@ -1,0 +1,22 @@
+{
+  "kind": "PersistentVolume",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "glusterfs-8ff9c55a",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "capacity": {
+      "storage": "5Gi"
+    },
+    "glusterfs": {
+      "endpoints": "glusterfs-cluster",
+      "path": "vol_8ff9c55a0e49b1f19f5a7ed464698abb"
+    },
+    "accessModes": [
+      "ReadWriteMany"
+    ],
+    "persistentVolumeReclaimPolicy": "Retain"
+  },
+  "status": {}
+}
